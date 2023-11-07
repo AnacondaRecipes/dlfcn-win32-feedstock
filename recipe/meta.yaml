@@ -29,7 +29,15 @@ about:
   home: https://github.com/dlfcn-win32/dlfcn-win32
   license: MIT
   license_file: COPYING
-  summary: 'dlfcn-win32 is an implementation of dlfcn for Windows.'
+  license_family: MIT
+  summary: dlfcn-win32 is an implementation of dlfcn for Windows.
+  description: |
+    dlfcn is a set of functions that allows runtime dynamic library loading. It is standardized in the POSIX. Windows
+    also provide similar routines, but not in a POSIX-compatible way. This library attempts to implement a wrapper
+    around the Windows functions to make programs written for POSIX that use dlfcn work in Windows without any
+    modifications.
+  doc_url: https://github.com/dlfcn-win32/dlfcn-win32
+  dev_url: https://github.com/dlfcn-win32/dlfcn-win32
 
 extra:
   recipe-maintainers:
