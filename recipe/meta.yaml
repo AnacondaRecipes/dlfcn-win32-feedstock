@@ -24,6 +24,7 @@ requirements:
 test:
   commands:
     - if exist %PREFIX%\\Library\\share\\dlfcn-win32\\dlfcn-win32-config.cmake (exit 0) else (exit 1)
+    - if exist %LIBRARY_INC%\\dlfcn.h (exit 0) else (exit 1)
 
 about:
   home: https://github.com/dlfcn-win32/dlfcn-win32
