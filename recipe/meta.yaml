@@ -42,6 +42,11 @@ about:
   dev_url: https://github.com/dlfcn-win32/dlfcn-win32
 
 extra:
+  anaconda-services:
+    ref: https://anaconda.zendesk.com/agent/tickets/70829
+    reason: Dependency for chromadb
+  recipe-maintainers:
+    - ianaobi
   recipe-maintainers:
     - seanyen
     - traversaro
